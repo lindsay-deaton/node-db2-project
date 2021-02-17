@@ -2,7 +2,7 @@ const { table } = require("../dbConfig");
 
 exports.up = function(knex) {
   //building
-  return knex.schema.createTable("cars", car => {
+  return knex.schema.createTable("cars", table => {
     table.increments()
     table.text("vinNumber").unique().notNullable()
     table.text("make", 128).notNullable()

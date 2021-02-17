@@ -8,7 +8,8 @@
     "mup": "knex migrate:up",
     "mdown": "knex migrate:down",
     "mlatest": "knex migrate:latest",
-    "mrollback": "knex migrate:rollback"
+    "mrollback": "knex migrate:rollback",
+    "seed": "knex seed:run"
   },
   "author": "Lambda School",
   "devDependencies": {

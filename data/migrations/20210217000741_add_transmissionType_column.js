@@ -1,6 +1,6 @@
 
 exports.up = function(knex) {
-  return knex.schema.table("cars" table=> {
+  return knex.schema.table("cars", table=> {
 table.text("transmissionType", 30)
   })
 };
